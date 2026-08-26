@@ -1,0 +1,2 @@
+"""ProofPitch application package."""
+

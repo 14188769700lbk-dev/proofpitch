@@ -1,0 +1,91 @@
+{
+  "opportunities": [
+    {
+      "id": "model-card-engineer",
+      "title": "AI Model Card Auto-Generation Engineer",
+      "company": "Synthetic employer fixture",
+      "engagement": "Contract-to-hire",
+      "level": "Junior",
+      "description": "Build a FastAPI workflow that turns model metadata into responsible AI documentation. Basic Python and FastAPI are required. MLflow familiarity is preferred. Initial applications stay on the hiring platform and no payment is requested.",
+      "requirements": [
+        {"name": "Python + FastAPI", "aliases": ["python", "fastapi"], "match_all": true},
+        {"name": "Responsible AI documentation", "aliases": ["documentation", "audit manifest", "policy-gated"]},
+        {"name": "MLflow", "aliases": ["mlflow"]}
+      ],
+      "source_verified": false,
+      "sample_only": true
+    },
+    {
+      "id": "integration-developer",
+      "title": "Junior AI Integration Developer",
+      "company": "Synthetic employer fixture",
+      "engagement": "Full-time",
+      "level": "Junior",
+      "description": "Integrate REST services with Python, SQL, Docker, and basic CI/CD. LangChain can be learned on the job. Employer identity has not yet been independently verified.",
+      "requirements": [
+        {"name": "Python", "aliases": ["python"]},
+        {"name": "REST APIs", "aliases": ["fastapi", "api", "rest"]},
+        {"name": "SQL", "aliases": ["sql"]},
+        {"name": "Docker + CI/CD", "aliases": ["docker", "ci/cd"], "match_all": true},
+        {"name": "LangChain", "aliases": ["langchain"]}
+      ],
+      "source_verified": false,
+      "sample_only": true
+    },
+    {
+      "id": "automation-specialist",
+      "title": "AI Automation Specialist",
+      "company": "Synthetic employer fixture",
+      "engagement": "Freelance",
+      "level": "Junior",
+      "description": "Create a small AI workflow with Python and prompt engineering. Contact must remain on the hiring platform. No card, crypto, equipment purchase, or fee is required.",
+      "requirements": [
+        {"name": "Python", "aliases": ["python"]},
+        {"name": "Prompt engineering", "aliases": ["prompt engineering"]},
+        {"name": "AI agents", "aliases": ["ai agents", "agent workflow"]}
+      ],
+      "source_verified": true,
+      "sample_only": true
+    },
+    {
+      "id": "suspicious-setup-assistant",
+      "title": "Suspicious AI Setup Assistant",
+      "company": "Synthetic scam fixture",
+      "engagement": "Freelance",
+      "level": "Junior",
+      "description": "Telegram only. Send a crypto deposit as a registration fee before receiving the project brief. This synthetic listing exists only to verify that ProofPitch blocks unsafe opportunities.",
+      "requirements": [
+        {"name": "Python", "aliases": ["python"]},
+        {"name": "AI agents", "aliases": ["ai agents", "agent workflow"]}
+      ],
+      "source_verified": false,
+      "sample_only": true
+    }
+  ],
+  "evidence": [
+    {
+      "id": "changefleet-fastapi",
+      "title": "ChangeFleet FastAPI service and tests",
+      "summary": "A public Python and FastAPI service with Docker packaging, CI, and reproducible tests for a policy-gated agent workflow.",
+      "url": "https://github.com/14188769700lbk-dev/changefleet",
+      "skills": ["Python", "FastAPI", "API", "REST", "Docker", "CI/CD", "AI agents", "agent workflow"],
+      "public_verified": true
+    },
+    {
+      "id": "lineage-medic-sql",
+      "title": "LineageMedic SQL repair campaign",
+      "summary": "A public repository with generated SQL and dbt changes, reference validation, CI, and documented evidence manifests.",
+      "url": "https://github.com/14188769700lbk-dev/lineage-medic",
+      "skills": ["SQL", "CI/CD", "documentation", "audit manifest"],
+      "public_verified": true
+    },
+    {
+      "id": "lineage-medic-governance",
+      "title": "Policy-gated workflows and audit manifests",
+      "summary": "Public documentation demonstrates approval-gated agent actions, audit manifests, safety boundaries, and responsible evidence claims.",
+      "url": "https://github.com/14188769700lbk-dev/lineage-medic#safety-and-review-model",
+      "skills": ["documentation", "audit manifest", "policy-gated", "responsible AI", "AI agents", "prompt engineering"],
+      "public_verified": true
+    }
+  ]
+}
