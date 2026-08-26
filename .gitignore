@@ -5,6 +5,7 @@ __pycache__/
 .coverage
 .env
 frontend/node_modules/
+scripts/node_modules/
 frontend/dist/
 frontend/*.tsbuildinfo
 frontend/vite.config.js

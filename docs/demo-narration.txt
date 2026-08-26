@@ -1,0 +1,13 @@
+ProofPitch is an evidence-grounded opportunity review agent for independent developers. It helps a person move quickly without exaggerating experience, overlooking payment red flags, or letting an automation send an application on its own.
+
+The workflow is built around four registered Strands Agents SDK tools. The first parses and validates a listing. The second maps every requirement only to supplied public evidence. The third checks payment, crypto, suspicious-check, and off-platform contact signals. The fourth receives both the evidence decisions and the completed risk review before it can prepare a draft. The default replay is deterministic and credential-free. An optional Bedrock model path exists, but it has not been invoked in this demonstration.
+
+Every listing in this demo is synthetic. We begin with a junior model-card role. ProofPitch confirms Python and FastAPI from a public tested service, and responsible AI documentation from public governance artifacts. MLflow remains a visible disclosure gap because there is no evidence for it. The agent does not convert willingness to learn into experience.
+
+The application draft is built from those decisions. It cites demonstrated capabilities, preserves the MLflow gap, and avoids claims about customers, employers, revenue, or production deployment. A reviewer can edit the text and record a local human-review decision. That record is not an application: the interface says clearly that no external message was sent, and the backend exposes no sending route.
+
+Now consider the synthetic scam fixture. It asks for Telegram-only contact and a crypto registration fee. The risk tool identifies both signals, changes the verdict to Do not apply, withholds the application draft, disables approval, and blocks the final timeline stages. Even a direct request to the approval API returns a conflict while hard-risk signals remain.
+
+ProofPitch is intentionally narrow. It does not promise perfect employer verification, automatic hiring, or revenue. It creates a reviewable chain from listing, to evidence, to risk, to a truthful draft, with a hard human boundary before any real-world action.
+
+The project was created during the hackathon period and includes ten automated tests, a React production build, FastAPI service, Docker packaging, architecture documentation, and reproducible synthetic fixtures. The result is a professional agent that protects both speed and honesty: evidence before applications, and human judgment before action.

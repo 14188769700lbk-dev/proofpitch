@@ -98,6 +98,10 @@ withhold the draft and disable approval:
 
 ![ProofPitch blocked-risk state](docs/risk-blocked.png)
 
+The reproducible local capture workflow and exact English narration are in
+[`docs/demo-video.md`](docs/demo-video.md). Rendered video files stay outside
+the repository until an authorized public upload.
+
 ## License
 
 Apache-2.0. See [LICENSE](LICENSE).
