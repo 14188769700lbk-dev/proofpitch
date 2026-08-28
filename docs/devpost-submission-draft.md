@@ -71,21 +71,34 @@ Public LineageMedic and ChangeFleet links are evidence inputs only; their code
 was not incorporated. The project has no customers, revenue, live employer
 integration, AWS deployment, or automatic sending feature as of this draft.
 
-## Video storyboard (about 3 minutes 30 seconds)
+## Video storyboard (measured final copy: 2:49.04)
 
-1. **0:00–0:25 — Problem:** Show how a listing can mix genuine requirements,
-   missing skills, and scam signals.
-2. **0:25–0:55 — Architecture:** Explain the four Strands tools and the explicit
+1. **0:00–0:12 — Title:** Evidence before applications; human judgment before
+   action.
+2. **0:12–0:30 — Problem and audience:** Introduce the repetitive, risky review
+   work faced by independent developers.
+3. **0:30–0:54 — Architecture:** Explain the four Strands tools and the explicit
    risk-to-draft dependency.
-3. **0:55–1:45 — Caveated listing:** Select the model-card fixture. Show verified
-   evidence, the MLflow disclosure gap, and the grounded draft.
-4. **1:45–2:15 — Human gate:** Record local human review and show the exact
-   message that no external application was sent.
-5. **2:15–3:00 — Blocked listing:** Select the synthetic scam fixture. Show
-   payment and off-platform detections, the withheld draft, blocked approval,
-   and blocked timeline states.
-6. **3:00–3:30 — Impact:** Summarize truthful applications, safer opportunity
-   screening, reproducible local execution, and the disabled outbound boundary.
+4. **0:54–1:33 — Caveated listing:** Use the synthetic model-card role to show
+   verified evidence, the MLflow disclosure gap, and why willingness to learn is
+   not converted into experience.
+5. **1:33–1:53 — Human gate:** Show the grounded draft and record local review;
+   state that no external application was sent.
+6. **1:53–2:25 — Blocked listing:** Show Telegram-only contact and a crypto fee
+   triggering the hard-risk gate, draft withholding, disabled approval, and
+   blocked timeline stages.
+7. **2:25–2:49 — Boundary and proof:** Reiterate no automatic sending, no invented
+   experience, no claim of optional Bedrock execution, and summarize the tested
+   implementation.
 
 The video may use screen recording and voiceover; no on-camera appearance is
 required.
+
+## Submission readiness
+
+The public repository, license, README, architecture diagram, local video, and
+submission copy are ready. The remaining mandatory gates are a **public**
+YouTube/Vimeo upload, an AWS Builder ID, the AWS-account step listed in the
+official How To Enter section, creation of the Devpost project, and a separately
+authorized final submission. See `docs/submission-evidence-audit.md` for the
+evidence matrix and optional-versus-required distinction.
