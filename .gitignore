@@ -10,4 +10,6 @@ frontend/dist/
 frontend/*.tsbuildinfo
 frontend/vite.config.js
 frontend/vite.config.d.ts
-artifacts/
+artifacts/*
+!artifacts/ProofPitch-AI-Builders-Deck.pptx
+!artifacts/ProofPitch-AI-Builders-Deck.pdf

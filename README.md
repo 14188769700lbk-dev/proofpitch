@@ -102,6 +102,20 @@ The reproducible local capture workflow and exact English narration are in
 [`docs/demo-video.md`](docs/demo-video.md). Rendered video files stay outside
 the repository until an authorized public upload.
 
+## Submission assets
+
+The AI Builders 2026 submission candidate is documented in
+[`docs/ai-builders-submission-draft.md`](docs/ai-builders-submission-draft.md).
+Its ten-slide deck is available as editable PowerPoint and rendered PDF:
+
+- [`artifacts/ProofPitch-AI-Builders-Deck.pptx`](artifacts/ProofPitch-AI-Builders-Deck.pptx)
+- [`artifacts/ProofPitch-AI-Builders-Deck.pdf`](artifacts/ProofPitch-AI-Builders-Deck.pdf)
+
+The deck separates verified implementation evidence from business-model
+hypotheses and discloses that OpenAI Codex primarily generated and iterated the
+project under the solo entrant's authorization. No event registration or
+submission is implied by these local assets.
+
 ## License
 
 Apache-2.0. See [LICENSE](LICENSE).

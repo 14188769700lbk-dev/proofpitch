@@ -4,9 +4,11 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "record": "node record-demo.mjs"
+    "record": "node record-demo.mjs",
+    "build:ai-builders-deck": "node build-ai-builders-deck.cjs"
   },
   "devDependencies": {
+    "pptxgenjs": "4.0.1",
     "playwright": "1.62.1"
   }
 }
